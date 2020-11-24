@@ -36,7 +36,7 @@ The predictor can be exposed using Flask-API and one can request it using a JSON
 ```
 **Response:** 
  
-If all is okay the request should give back a JSON response as follow in case the model predicted "No". "Yes", otherwise. 
+If all is okay the above request should give back a JSON response as follow in case the model predicted "No". "Yes", otherwise. 
  
 
 ```JSON
