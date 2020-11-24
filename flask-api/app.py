@@ -110,8 +110,6 @@ def predict_deposit():
     # Do predict
     pred = model.predict(data_enc)
 
-    print(f"Original value: {type(pred[0])}")
-
     subscribe = "No"
     if pred[0] == 1:
         subscribe = "Yes"
